@@ -1,0 +1,90 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app nav ul{
+  display: flex;
+
+}
+
+.app nav ul li {
+  text-decoration: none;
+  margin: 5px;
+  list-style-type: none;
+}
+
+.app nave ul li a {
+  text-decoration: none;
+}
+
+.font-face-gm {
+  font-family: "Mooli", sans-serif;
+}
+
+.card {
+
+  position: relative;
+  border-radius: 8px;
+  margin: 5px;
+  background-size: cover;
+}
+
+.image {
+  width: 100%;
+  height: 200px;
+  border: 5px solid #ffbf3c2b;
+  border-radius: 8px;
+}
+
+
+.card--margin {
+  width: 95%;
+  margin: 3px;
+}
+
+.card--text {
+
+  position: absolute;
+  top: 126px;
+  bottom: 85px;
+  font-family: "Mooli";
+  flex-direction: column;
+  align-items: center;
+  background-color: #a6a28e6b;
+  height: 175px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  color: #fae3b9;
+  width: 100%;
+
+}
+
+.card--p {
+  margin-top: 9px;
+}
+
+.div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardLeft:hover {
+
+  opacity: 50%;
+}

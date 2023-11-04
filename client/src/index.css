@@ -1,3 +1,13 @@
+#root {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "Mooli";
+  src: local("Mooli"),
+    url("./fonts/Mooli/Mooli-Regular.ttf") format("truetype");
+  font-weight: bold;
+}
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

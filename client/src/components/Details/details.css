@@ -1,0 +1,113 @@
+body {
+  background-color: rgb(17, 39, 18);
+  font-family: "Mooli", sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+a {
+  color: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #80560078;
+  /* opacity: 50%; */
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f6e8c38f;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a37e1e8f;
+}
+
+.seperatePara {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #a6a28e6b;
+  color: #fae3b9;
+  font-family: sans-serif;
+
+}
+
+.group-para {
+  /* width: 50%; */
+}
+
+.details-body {
+  background-color: rgb(17, 39, 18);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-blend-mode: color;
+  border-radius: 114px;
+
+
+}
+
+
+.content {
+  width: 50%;
+}
+
+.imageCard {
+  width: 300px;
+  margin: 20px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.imageCard--image {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+
+}
+
+.imageCard--caption {
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background-color: #5b584a9e;
+  color: #ffedcc;
+  font-family: sans-serif;
+  padding: 10px;
+  position: absolute;
+  top: 394px;
+  bottom: 0px;
+  width: 94%;
+  overflow-y: scroll;
+}
+
+.reality {
+  display: flex;
+  width: 80%;
+  margin: 10px;
+  justify-content: center;
+height: 506px;
+}
+
+.picture-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  background-color: #180f0f7d;
+
+  border-radius: 30px;
+
+}
