@@ -1,0 +1,9 @@
+
+.foot {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(20, 11, 7, 0.827);
+  width: 100%;
+  padding: 10px;
+  color: #098b0f;
+}
