@@ -11,12 +11,12 @@ export default function CardLeft(props) {
   // console.log(props.id)
   return (
     <div className='cardLeft'>
- <Link
+ {/* <Link
         to={`/details/${props.id}`}
           // This is a conditional (ternary) operator that checks to see if the current page is "Home"
           // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
           className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
-    >
+    > */}
 
    
     <div className="card" key={props.id}
@@ -32,7 +32,7 @@ export default function CardLeft(props) {
         <img src={props.image} className="image"></img>
       </div> */}
         </div>
-         </Link>
+         {/* </Link> */}
     </div>
   )
 }
