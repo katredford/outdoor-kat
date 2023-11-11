@@ -1,0 +1,43 @@
+
+@font-face {
+  font-family: "Bungee";
+  src: local("Bungee"),
+    url("../../fonts/Bungee/Bungee-Regular.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Lilita One";
+  src: local("Lilita_One"),
+    url("../../fonts/Lilita_One/LilitaOne-Regular.ttf") format("truetype");
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  /* background-color: orange; */
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 5px;
+  background-image: linear-gradient(#ff000000,
+    #8e6e4469);
+}
+
+.title {
+  font-size: 50px;
+font-family: 'Lilita One', sans-serif;
+  margin-left: 5px;
+}
+.link {
+  text-decoration: none;
+}
+
+ul {
+  margin-right: 5px;
+  font-size: 20px;
+}
+li:hover{
+  background-color: purple;
+}
