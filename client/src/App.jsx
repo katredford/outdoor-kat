@@ -8,7 +8,7 @@ import DisplayCard from './components/displayCards/DisplayCards'
 import Details from './components/Details/Details';
 import Nav from "./components/Nav/index"
 import data from "./utils/cards.json"
-
+import Hero from "./components/Hero/index"
 
 
 function App() {
@@ -20,13 +20,13 @@ function App() {
       <BrowserRouter>
         <div className='app'>
         <Nav />
-        
+        <Hero />
           
 
           <Routes>
-            {/* <Fragment className="picture-grid"> */}
+            
             <Route path="/" element={<Main />} />
-            {/* </Fragment> */}
+           
             <Route path="/details/:id" element={<Details />} />
             <Route path='/archive' element={<DisplayCard />} />
           </Routes>

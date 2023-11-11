@@ -20,9 +20,10 @@ header {
   /* background-color: orange; */
   width: 100%;
   flex-wrap: wrap;
-  margin: 5px;
+  margin-top: 12px;
+  padding-bottom: 5px;
   background-image: linear-gradient(#ff000000,
-    #8e6e4469);
+    #8e6e44cc);
 }
 
 .title {
