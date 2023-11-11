@@ -9,16 +9,13 @@ export default function DisplayCard() {
   const currentPage = useLocation().pathname;
 
   useEffect(() => {
-    // setNewCard([])
+    
     const cards = data.map((card, i) => {
-      // let id = i
-      // console.log("display Cards id", card.id)
+   
       return (
-        // <Link key={i} to={`/details/${index}`}>
+      
           <Link
             to={`/details/${card.id}`}
-            // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-            // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
           className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
           key={card.id}
           >
@@ -32,9 +29,14 @@ export default function DisplayCard() {
   
   return (
     <>
-      
       <div className="picture-grid">
+        <h1>Archive</h1>
+        
+     
+      <div className="picture-grid-details">
+      {/* <h1>Archive</h1> */}
         {newCard}
+        </div>
       </div>
     </>
   )

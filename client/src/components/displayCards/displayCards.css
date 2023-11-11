@@ -1,8 +1,8 @@
-.picture-grid {
+.picture-grid-details {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 80%;
-padding: 63px;
-margin: 5%;
+      
+        padding: 30px;
+        
 }

@@ -45,7 +45,9 @@ export default function Details() {
       }}
     >
       <div className="reality">
-        <ImageCard className="imageCardRand" items={card} />
+        <div className="imageCardRand">
+        <ImageCard  className='imageCardRandComponent' items={card} />
+        </div>
         <div className="content">
           <h1>{post.title}</h1>
           <h3>{post.date}</h3>

@@ -11,27 +11,11 @@
   padding: 0;
 }
 
-.app nav ul{
-  display: flex;
-
-}
-
-.app nav ul li {
-  text-decoration: none;
-  margin: 5px;
-  list-style-type: none;
-}
-
-.app nave ul li a {
-  text-decoration: none;
-}
-
 .font-face-gm {
   font-family: "Mooli", sans-serif;
 }
 
 .card {
-
   position: relative;
   border-radius: 8px;
   margin: 5px;

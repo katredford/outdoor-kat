@@ -12,6 +12,20 @@
     url("../../fonts/Lilita_One/LilitaOne-Regular.ttf") format("truetype");
   font-weight: bold;
 }
+.app nav ul {
+  display: flex;
+
+}
+
+.app nav ul li {
+  text-decoration: none;
+  margin: 5px;
+  list-style-type: none;
+}
+
+.app nave ul li a {
+  text-decoration: none;
+}
 
 header {
   display: flex;
@@ -41,4 +55,8 @@ ul {
 }
 li:hover{
   background-color: purple;
+}
+
+@media screen and (max-width: 400px) {
+
 }
