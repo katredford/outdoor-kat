@@ -12,8 +12,11 @@ export default function Details() {
   const { id } = useParams();
 
   useEffect(() => {
-    const postId = parseInt(id, 10); // Convert id to integer
-    const postData = data.find((item) => item.id === postId);
+    const latestPost = data[data.length - 1];  
+    const latestId = latestPost.id;
+
+    const postId = id || latestId;
+    const postData = data.find((item) => item.id === parseInt(postId, 10));
 
     if (postData) {
       const picto = postData.image[0].link;
